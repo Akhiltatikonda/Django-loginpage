@@ -1,0 +1,27 @@
+<h1>Register Here</h1>
+
+<html>
+    <head>
+        <title> Forms.Html </title>
+        <link rel="stylesheet" type="text/css" href="forms.css">
+    </head>
+    <body>
+        <style>
+            body{
+                background-color: gray;
+            }
+        </style>
+        <form action="for.html" method="get" target="_self">
+            <input type="text" size="30" name="Username" autofocus placeholder="enter your name" required></br></br>
+            <input type="password" size="30" name="password" placeholder="enter your password"></br></br>
+            <input type="E-mail" size="30" name="E-mail" placeholder="enter your e-mail"></br></br>
+            <input type="number" size="30" name="number" placeholder="please enter your mobile number"></br></br>
+            <input type="date" name="dob"></br></br>
+            
+            <a href="{%url 'loginpage' %}">Login</a>
+
+
+
+        </form>
+    </body>
+</html>
